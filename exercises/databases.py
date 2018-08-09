@@ -16,8 +16,8 @@ def add_student(name, year, finished_lab):
 	"""
 	student_object = Student(
 		name=name,
-		year=year,
-		finished_lab=finished_lab)
+		year=year)
+		# finished_lab=finished_lab)
 	session.add(student_object)
 	session.commit()
 
